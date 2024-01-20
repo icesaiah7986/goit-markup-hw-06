@@ -694,8 +694,20 @@ label {
   margin-bottom: 8px;
 }
 
+.modal-form-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+  margin-bottom: 4px;
+}
+
 .modal-form-label, .modal-form-textarea {
   display: block;
+  position: relative;
+}
+
+.modal-label-container {
   position: relative;
 }
 
