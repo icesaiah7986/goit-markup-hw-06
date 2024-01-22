@@ -894,8 +894,11 @@ label {
 }
 
 .modal-form-button {
-  display: block;
-  /* min-width: 169px; */
+  display: inline-flex;
+  align-items: flex-start;
+  padding: 16px 32px;
+  gap: 10px;
+  width: 105px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
