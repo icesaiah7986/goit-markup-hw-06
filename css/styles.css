@@ -853,7 +853,8 @@ label {
 }
 
 .modal-form-agreement-text {
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
@@ -870,9 +871,11 @@ label {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-checkbox:checked + .modal-checkbox-icon {
-  background-color: var(--iris);
-  border-color: var(--iris);
+.modal-form-checkbox:checked + .form-agreement-link {
+  background-color: var(--ocean);
+  border: none;
+  fill: var(--cloud);
+
 }
 
 .form-agreement-link {
@@ -890,12 +893,12 @@ label {
 }
 
 .privacy-link {
-  color: var(--iris);
+  color: var(--iris)
 }
 
 .modal-form-button {
   display: block;
-  width: 105px;
+  min-width: 169px;
   height: 56px;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
@@ -908,8 +911,7 @@ label {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-  
+    
 }
 
 .modal-form-button:hover {
