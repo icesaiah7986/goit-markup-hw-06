@@ -852,7 +852,7 @@ label {
   cursor: pointer;
 }
 
-.modal-form-agreement-text {
+.modal-form-agreement-label {
   display: block;
   font-size: 12px;
   line-height: 1.17;
@@ -870,14 +870,14 @@ label {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-checkbox:checked + .form-agreement-link {
+.modal-form-checkbox:checked + .modal-form-agreement-text {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
 
 }
 
-.form-agreement-link {
+.modal-form-agreement-text {
   width: 16px;
   height: 16px;
   border: 1px solid rgba(46, 47, 66, 0.4);
@@ -887,7 +887,6 @@ label {
   align-items: center;
   justify-content: center;
   fill: transparent;
-
 
 }
 
