@@ -844,11 +844,12 @@ label {
 }
 
 .modal-form-agreement {
-  display: flex;
+  margin-bottom: 24px;
+  /* display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 24px;
-  cursor: pointer;
+  cursor: pointer; */
 }
 
 .modal-form-agreement-text {
@@ -884,26 +885,31 @@ label {
   align-items: center;
   justify-content: center;
   fill: transparent;
-  
+
 
 }
 
+.privacy-link {
+  color: var(--iris);
+}
+
 .modal-form-button {
-  color: var(--white);
-  text-align: center;
+  display: block;
+  /* min-width: 169px; */
+  height: 56px;
+  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.64px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--white);
+  cursor: pointer;
+  background-color: var(--iris);
   border: none;
   border-radius: 4px;
-  background: var(--iris);
-  box-shadow: 0 px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 16px 32px;
-  margin: 0 auto;
-  cursor: pointer;
-  display: block;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  
+  
 }
 
 .modal-form-button:hover {
