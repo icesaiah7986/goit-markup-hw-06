@@ -410,18 +410,27 @@
         </ul>
       </div> 
       <div class="footer-form-container">
-        <form class="footer-subscription-form" name="subscribe-form" autocomplete="on">
+        <p class="footer-subscription-text">Subscribe</p>
+        <form class="footer-subscription-form">
           <label class="footer-subscription-label">
-            <span class="footer-subscription-text">Subscribe</span>
-            <input class="footer-subscription-input" type="email" name="subscription-mail" placeholder="">
+            <input class="footer-subscription-input" name="subscription-mail" type="email" placeholder="E-mail">
           </label>
+          <button class="footer-subscription-button" type="submit">Subscribe
+            <svg class="footer-subscription-icon" width="24" height="24">
+              <use href="images/icons.svg#subscription"></use>          
+            </svg>
+          </button>
+        </form>
+      </div>
+      <!-- <div class="footer-form-container">
+        
           <button class="footer-subscription-button" type="submit">Subscribe>
             <svg class="footer-subscription-icon" width="24" height="24"
               <use href="./images/icons.svg#subscription"></use>
             </svg> 
           </button>
         </form>
-      </div>
+      </div> -->
     </div>
   </footer>
   <!-- Modal Order Service Button -->
