@@ -466,15 +466,15 @@
           <textarea id="user-comment" name="user-comment" placeholder="Text input" class="form-label-textarea"></textarea>
         </div>
         <div class="modal-form-agreement">
-          <input class="modal-form-checkbox visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy" required />
+          <input class="modal-form-checkbox visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy"/>
           <label class="modal-form-agreement-text" for="user-privacy">
             <span class="form-agreement-link">
-              I accept the terms and conditions of the <a href="#" class="privacy-link">Privacy Policy</a>
+              <svg class="modal-checkbox-icon" width="10" height="8">
+                <use href="./images/icons.svg#checkbox"></use>
+              </svg>
+            I accept the terms and conditions of the <a href="#" class="privacy-link">Privacy Policy</a>
             </span>
           </label>
-          <svg class="modal-checkbox-icon" width="10" height="8">
-            <use href="./images/icons.svg#checkbox"></use>
-          </svg>
         </div>
         <button class="modal-form-button" type="submit">Send</button>
       </form>      
