@@ -845,11 +845,11 @@ label {
 
 .modal-form-agreement {
   margin-bottom: 24px;
-  /* display: flex;
+  display: flex;
   align-items: center;
   justify-content: flex-start;
   margin-bottom: 24px;
-  cursor: pointer; */
+  cursor: pointer;
 }
 
 .modal-form-agreement-text {
