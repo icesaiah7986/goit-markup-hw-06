@@ -965,3 +965,19 @@ img {
 
 /* Modal Form */
 
+
+
+
+
+
+/* Mobile View - Start */
+
+/* Media Queries */
+
+@media screen and (min-width: 428px) and (max-width: 767px) {
+  .container {
+    width: 775px;
+    margin: 0 auto;
+  
+  }
+}
