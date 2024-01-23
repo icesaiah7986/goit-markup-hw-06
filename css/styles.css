@@ -838,7 +838,6 @@ img {
 }
 
 
-
 .form-label-input:hover + .form-input-icon,
 .form-label-input:focus + .form-input-icon {
   fill: var(--iris);
@@ -871,7 +870,7 @@ img {
   fill: transparent;
 }
 
-.modal-form-checkbox:checked + .form-agreement-text {
+.modal-form-checkbox:checked + .terms-conditions > .form-agreement-text {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
