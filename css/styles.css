@@ -870,7 +870,7 @@ img {
   fill: transparent;
 }
 
-.modal-form-checkbox:checked+.terms-conditions>.form-agreement-text {
+.modal-form-checkbox:checked + .terms-conditions >.form-agreement-text {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
@@ -969,14 +969,3 @@ img {
 
 
 
-/* Mobile View - Start */
-
-/* Media Queries */
-
-@media screen and (min-width: 428px) and (max-width: 767px) {
-  .container {
-    width: 775px;
-    margin: 0 auto;
-  
-  }
-}
