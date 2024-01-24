@@ -874,7 +874,7 @@ img {
   margin-right: 8px;
 }
 
-.modal-form-checkbox:checked + .terms-conditions > .form-agreement-text {
+.checkbox-modal:checked + .terms-conditions > .form-agreement-text {
   background-color: var(--ocean);
   border: none;
   fill: var(--cloud);
